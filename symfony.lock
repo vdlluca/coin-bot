@@ -1,4 +1,34 @@
 {
+    "botman/botman": {
+        "version": "2.6.1"
+    },
+    "botman/driver-web": {
+        "version": "1.5.1"
+    },
+    "doctrine/annotations": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/lexer": {
+        "version": "1.2.1"
+    },
+    "evenement/evenement": {
+        "version": "v3.0.1"
+    },
+    "mpociot/pipeline": {
+        "version": "1.0.2"
+    },
+    "opis/closure": {
+        "version": "3.6.1"
+    },
     "php": {
         "version": "7.4"
     },
@@ -13,6 +43,33 @@
     },
     "psr/log": {
         "version": "1.1.3"
+    },
+    "react/cache": {
+        "version": "v1.1.0"
+    },
+    "react/dns": {
+        "version": "v1.4.0"
+    },
+    "react/event-loop": {
+        "version": "v1.1.1"
+    },
+    "react/promise": {
+        "version": "v2.8.0"
+    },
+    "react/promise-timer": {
+        "version": "v1.6.0"
+    },
+    "react/socket": {
+        "version": "v1.6.0"
+    },
+    "react/stream": {
+        "version": "v1.1.1"
+    },
+    "roave/security-advisories": {
+        "version": "dev-master"
+    },
+    "spatie/macroable": {
+        "version": "1.0.1"
     },
     "symfony/cache": {
         "version": "v5.1.8"
@@ -115,6 +172,9 @@
     "symfony/polyfill-php80": {
         "version": "v1.20.0"
     },
+    "symfony/profiler-pack": {
+        "version": "v1.0.5"
+    },
     "symfony/routing": {
         "version": "5.1",
         "recipe": {
@@ -132,8 +192,31 @@
     "symfony/service-contracts": {
         "version": "v2.2.0"
     },
+    "symfony/stopwatch": {
+        "version": "v5.1.8"
+    },
     "symfony/string": {
         "version": "v5.1.8"
+    },
+    "symfony/translation-contracts": {
+        "version": "v2.3.0"
+    },
+    "symfony/twig-bridge": {
+        "version": "v5.1.8"
+    },
+    "symfony/twig-bundle": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "fab9149bbaa4d5eca054ed93f9e1b66cc500895d"
+        },
+        "files": [
+            "config/packages/test/twig.yaml",
+            "config/packages/twig.yaml",
+            "templates/base.html.twig"
+        ]
     },
     "symfony/var-dumper": {
         "version": "v5.1.8"
@@ -141,7 +224,27 @@
     "symfony/var-exporter": {
         "version": "v5.1.8"
     },
+    "symfony/web-profiler-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "6bdfa1a95f6b2e677ab985cd1af2eae35d62e0f6"
+        },
+        "files": [
+            "config/packages/dev/web_profiler.yaml",
+            "config/packages/test/web_profiler.yaml",
+            "config/routes/dev/web_profiler.yaml"
+        ]
+    },
     "symfony/yaml": {
         "version": "v5.1.8"
+    },
+    "tightenco/collect": {
+        "version": "v8.14.0"
+    },
+    "twig/twig": {
+        "version": "v3.1.1"
     }
 }
